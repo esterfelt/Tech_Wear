@@ -1,0 +1,22 @@
+.header-main {
+  background-color: thistle;
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 120px;
+  font-size: 18px;
+  width: 1200px;
+
+  &__pages {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+  }
+  &__helpers {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  a {
+    display: block;
+  }
+}
