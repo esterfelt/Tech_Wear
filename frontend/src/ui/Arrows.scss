@@ -1,0 +1,12 @@
+@import '../styles/global.scss';
+
+.arr{
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $color-grey;
+    
+    &:hover svg path {
+        fill: $color-black; 
+      }
+}

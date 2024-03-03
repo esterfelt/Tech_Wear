@@ -1,22 +1,37 @@
+
+// TODO add black color to current page
+@import '../styles/global.scss';
+a {
+  display: block;
+  text-decoration: none;
+  &:link, &:visited {
+    color: $color-grey;
+  }
+  &:hover, &:active {
+    color: $color-black ;
+  }
+ 
+}
+
 .header-main {
-  background-color: thistle;
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
-  margin: 70px 120px;
+  margin: 0 auto;  
   font-size: 18px;
   width: 1200px;
+  text-decoration: none;
 
-  &__pages {
+  &_pages {
     display: flex;
     width: 400px;
     justify-content: space-between;
   }
-  &__helpers {
+  &_helpers {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 20px;
     width: 400px;
-  }
-  a {
-    display: block;
   }
 }
+
