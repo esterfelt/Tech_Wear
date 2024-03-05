@@ -1,0 +1,35 @@
+@import '../styles/global.scss';
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &-img{
+        width: 285px;
+        height: 394px;
+    }
+
+    &-title{
+        font-size: 18px;
+    }
+    &-price{
+        font-size: 18px; 
+        color: $color-grey;
+    }
+}
+
+.slide {
+    flex: 0 0 auto;
+    transition: transform 1s ease;
+    // width: 285px;
+    // height: 293px;
+   
+    &.active {
+      flex: 0 0 60%; /* Set the active slide to be 60% of the container width */
+      transform: translateX(0); /* Move the active slide to the left by 20% */
+      width: 488px;
+      height: 521px;
+    }
+  }
+  

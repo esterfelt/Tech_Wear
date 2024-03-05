@@ -1,0 +1,17 @@
+@import "../styles/global.scss";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,14 @@
+
+.footer {
+    margin: 60px 120px;
+    &-content{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .list {
+        list-style-type: none;
+        padding-left: 0;
+    }
+}

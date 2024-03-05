@@ -1,7 +1,15 @@
-import React from "react";
+import Hero from "../components/Hero";
+import NewCollection from "../components/NewCollection";
+import Carousel from '../components/Carousel';
+import Categories from "../components/Categories";
 
 function Home() {
-  return <div>Homepage</div>;
+  return <div>
+    <Hero />
+    <NewCollection />
+    <Carousel />
+    <Categories />
+  </div>;
 }
 
 export default Home;

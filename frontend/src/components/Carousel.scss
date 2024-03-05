@@ -1,0 +1,25 @@
+@import '../styles/global.scss';
+
+// .carousel-images{
+//     background-color: aquamarine;
+//     display: flex;
+//     justify-content: space-between;
+
+// }
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+    // position: relative;
+  }
+  
+  .carousel-images {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  
+  
+  

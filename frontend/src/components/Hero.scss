@@ -1,0 +1,24 @@
+@import '../styles/global.scss';
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &_header{
+        color: $color-black;
+        font-size: 68px;
+        line-height: 88px;
+        font-weight: 400;
+        text-align: center;
+    }
+    &_video{
+        // aspect-ratio: 1 / 1;
+        width: 1200px;
+        // height: 500px;
+    }
+    video{
+        object-fit: contain;
+
+    }
+}
